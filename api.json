@@ -1,0 +1,19 @@
+{
+  "apps" : [{
+    "name"          : "lol-source-api",
+    "instances"     : "2",
+    "args"          : "",
+    "script"        : "./api-index.js",
+    "log-date-format"   : "YYYY-MM-DD HH:mm Z",
+    "ignoreWatch"   : ["[\\/\\\\]\\./", "node_modules"],
+    "watch"         : "true",
+    "error_file"    : "./storage/api-index/err.log",
+    "out_file"      : "./storage/api-index/out.log",
+    "pid_file"      : "./storage/api-index/pid.pid",
+    "exec_mode"     : "cluster_mode",
+    "port"          : 8290,
+    "env": {
+        "NODE_PORT" : 8290
+    }
+  }]
+}

@@ -1,0 +1,21 @@
+{
+    "name"          : "lol-source",
+    "main"          : "./task-index.js",
+    "version"       : "0.0.1",
+    "description"   : "lol champions info import system",
+    "author"        : {
+        "name"      : "iori-china",
+        "email"     : "iori-china@163.com"
+    },
+    "dependencies"  : {
+        "config"    : "1.x.x",
+        "redis"     : "0.x.x",
+        "hiredis"   : "0.x.x",
+        "cheerio"   : "0.x.x",
+        "generic-pool"   : "2.x.x"
+    },
+    "repository"    : {
+        "type"      : "",
+        "url"       : ""
+    }
+}
